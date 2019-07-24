@@ -4,7 +4,7 @@
 
 # Load file - N.B change file loaction
 file = "r-packages/rPackages.txt"
-readline(file)
+readLines(file)
 
 # Can't update these base packages
 base = c('base', 'compiler', 'datasets', 'grDevices', 'graphics', 'grid', 'methods', 'parallel', 'splines', 'stats', 'stats4', 'tcltk', 'tools', 'utils')
